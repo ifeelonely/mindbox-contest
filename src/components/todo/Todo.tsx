@@ -44,7 +44,9 @@ const Todo = (): JSX.Element => {
 
   return (
     <div className={classes.todo}>
-      <h1 style={{ textAlign: 'center', color: 'grey' }}>todos</h1>
+      <h1 role="heading" style={{ textAlign: 'center', color: 'grey' }}>
+        todos
+      </h1>
       <div className={classes.addTask}>
         <TextField
           value={textField}
