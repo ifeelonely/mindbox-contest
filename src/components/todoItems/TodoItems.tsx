@@ -3,7 +3,7 @@ import { TodoItemsProp } from './TodoItemsInt';
 import { Checkbox } from '@mui/material';
 import classes from './TodoItems.module.css';
 
-const TodoList = ({ setActive, todoItems }: TodoItemsProp): JSX.Element => {
+const TodoItems = ({ setActive, todoItems }: TodoItemsProp): JSX.Element => {
   return (
     <div className={classes.todoItems}>
       {todoItems.map((el) => {
@@ -39,4 +39,4 @@ const TodoList = ({ setActive, todoItems }: TodoItemsProp): JSX.Element => {
   );
 };
 
-export default TodoList;
+export default TodoItems;
