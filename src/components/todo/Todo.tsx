@@ -8,9 +8,7 @@ import TodoSort from '../todoSort/TodoSort';
 
 const Todo = (): JSX.Element => {
   const [textField, setTextField] = useState<string>('');
-  const [todoItems, setTodoItems] = useState<Item[]>([
-    { text: 'run', id: 0, active: true },
-  ]);
+  const [todoItems, setTodoItems] = useState<Item[]>([]);
   const [sortOpt, setSortOpt] = useState<string>('all');
 
   const addTask = () => {
