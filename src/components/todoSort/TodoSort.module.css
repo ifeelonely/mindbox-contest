@@ -1,0 +1,30 @@
+.todoSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+}
+
+.todoSort span:hover {
+  cursor: pointer;
+}
+
+.sortOptions {
+  display: flex;
+  gap: .8rem;
+}
+
+.sortBtn {
+  background: transparent;
+  border: none;
+  color: grey;
+  font-size: 1.5rem;
+}
+
+.sortBtn:hover {
+  cursor: pointer;
+}
+
+.active {
+  border: 1px solid grey;
+}

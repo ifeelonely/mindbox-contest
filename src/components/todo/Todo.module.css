@@ -1,0 +1,24 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width:50rem;
+  padding: 1rem;
+  background-color: var(--main-grey);
+}
+
+.addTask {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.addIcon {
+  font-size: 4rem;
+  color: grey;
+}
+
+.addIcon:hover {
+  cursor: pointer;
+}
